@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+ <h1>Place and Area</h1>
+
+{% for place in places %}
+
+    Name: {{ place.name }}<br>
+    Area: {% for area in place.area.all %}
+            {{ area }} ,
+               {% endfor %}
+ <br>
+<!--    Area: {{ place.area}}-->
+ <br>
+
+{% endfor %}
+</body>
+</html>
