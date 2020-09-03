@@ -244,6 +244,14 @@ class Book(models.Model):
     publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
     publication_date = models.DateField()
 
+class Apk_file(models.Model):
+    file=models.FileField(upload_to='apk_files', blank=True)
+    playStore_link=models.URLField(blank=True)
+    title=models.CharField(max_length=40)
+
+    def __str__(self):
+        return self.title
+
 
 
 

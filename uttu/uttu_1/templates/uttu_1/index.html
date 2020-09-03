@@ -18,5 +18,11 @@
  <br>
 
 {% endfor %}
+<hr>
+{% for i in files %}
+ <h1> {{ i.title}}</h1>
+ <h4 href={{i.playStore_link}}>PlayStore Link</h4>
+   <a href="{{ i.file.url }}">Download Certification</a>
+{% endfor %}
 </body>
 </html>

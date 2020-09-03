@@ -3,7 +3,7 @@ from django.shortcuts import render,reverse
 from django.utils import timezone
 from django.views import View
 
-from .models import  Area, Place,Song,Playlist,Publisher,Book,Author
+from .models import  Area, Place,Song,Playlist,Publisher,Book,Author,Apk_file
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import CreateView, ListView, DetailView
 
@@ -12,10 +12,12 @@ from django.views.generic import CreateView, ListView, DetailView
 
 def index(request):
     place = Place.objects.all()
+    apk_file=Apk_file.objects.all()
     #areas = place.area.all()
 
     context = {
         "places": place,
+        'files':apk_file,
        # "areas": areas,
     }
     return render(request,'uttu_1/index.html',context)

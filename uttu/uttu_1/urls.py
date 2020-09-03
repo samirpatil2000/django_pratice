@@ -5,10 +5,10 @@ from . import views
 from.views import PlaylistCreateView,MyView,PublisherList, PublisherBookList,AuthorDetailView
 #
 urlpatterns = [
-     #path('',views.index,name='home'),
+    path('',views.index,name='home'),
     path('play/',PlaylistCreateView.as_view(),name='create'),
     #path('',MyView.as_view(greeting=" G'day "),name='home')
-    path('', PublisherList.as_view()),
+   # path('', PublisherList.as_view()),
   #    path('books/<publisher>/', PublisherBookList.as_view())
     path('books/<publisher>/', PublisherBookList.as_view()),
 
