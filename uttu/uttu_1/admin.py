@@ -1,6 +1,6 @@
 from django.contrib import admin
 #from.models import Topping,Pizza,Person,Group,Membership,Ox,Person_1,Blog ,Type,Post#,Student,CommonInfo
-from.models import Area,Place,Follow,Song,Playlist,Publisher,Author,Book,Apk_file
+from.models import Area,Place,Follow,Song,Playlist,Publisher,Author,Book,Apk_file,MyModel
 # # Register your models here.
 
 
@@ -45,3 +45,6 @@ admin.site.register(Author)
 
 
 admin.site.register(Apk_file)
+
+# tables
+admin.site.register(MyModel)

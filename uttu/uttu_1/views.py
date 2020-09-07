@@ -3,9 +3,13 @@ from django.shortcuts import render,reverse
 from django.utils import timezone
 from django.views import View
 
-from .models import  Area, Place,Song,Playlist,Publisher,Book,Author,Apk_file
+from .models import  Area, Place,Song,Playlist,Publisher,Book,Author,Apk_file,MyModel
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import CreateView, ListView, DetailView
+
+
+
+
 
 
 # Create your views here.
@@ -93,7 +97,14 @@ class AuthorDetailView(DetailView):
         return obj
 
 
+# For Table Testing
 
+from django_tables2 import SingleTableView
+from .tables import MyTable
+class ListView(SingleTableView):
+    model=MyModel
+    table_class=MyTable
+    template_name='uttu_1/tables.html'
 
 
 
