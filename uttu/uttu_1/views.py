@@ -107,6 +107,18 @@ class ListView(SingleTableView):
     template_name='uttu_1/tables.html'
 
 
+# for filtering
+def filter_list(request):
+    context=MyModel.objects.all()
+    statusCode="No"
+    filterContext_=MyModel.objects.filter(status=statusCode)
+    filterContext={
+        'table':filterContext_,
+    }
+    template_name='uttu_1/tables.html'
+    return render(request,template_name,filterContext)
+
+
 
 
 
