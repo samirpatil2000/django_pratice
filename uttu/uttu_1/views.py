@@ -97,10 +97,12 @@ class AuthorDetailView(DetailView):
         return obj
 
 
+
 # For Table Testing
 
 from django_tables2 import SingleTableView
 from .tables import MyTable
+
 class ListView(SingleTableView):
     model=MyModel
     table_class=MyTable
@@ -111,6 +113,7 @@ class ListView(SingleTableView):
 def filter_list(request):
     context=MyModel.objects.all()
     statusCode="No"
+    table_class=MyTable
     filterContext_=MyModel.objects.filter(status=statusCode)
     filterContext={
         'table':filterContext_,
