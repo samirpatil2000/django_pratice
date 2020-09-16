@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.core.exceptions import ValidationError
 from django.db import models
 
 
@@ -267,7 +268,26 @@ class MyModel(models.Model):
         return self.name
 
 
+# followers following model TESTING..../...\
+#
 
+class Followers(models.Model):
+
+    follower=models.ForeignKey(User,related_name='followinges',on_delete=models.DO_NOTHING)
+    following=models.ForeignKey(User,related_name='followeres',on_delete=models.DO_NOTHING)
+
+    class Meta:
+        unique_together=('follower','following')
+
+    def __unicode__(self):
+        return u'%s follows %s' %(self.follower,self.following)
+
+    def clean(self):
+        if self.follower==self.following:
+            raise ValidationError("One Cannot follow themselves")
+
+    # def __str__(self):
+    #     return
 
 
 
