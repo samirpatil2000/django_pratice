@@ -2,18 +2,263 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/audio/Avicii_-_The_Nights.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/audio/Powfu_-_Death_Bed_ft._beabadoobee_don_t_stay_awake_for_too_long.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/song_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song/migrations/0002_song_audio_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/bin/celerybeat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/bin/celeryd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/bin/celeryd-multi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp-1.4.9.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp-1.4.9.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp-1.4.9.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp-1.4.9.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp-1.4.9.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp-1.4.9.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp-1.4.9.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp/tests/case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/amqp/tests/test_channel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/anyjson-0.3.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/anyjson-0.3.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/anyjson-0.3.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/anyjson-0.3.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/anyjson-0.3.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/anyjson-0.3.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/anyjson/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard-3.3.0.23.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard-3.3.0.23.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard-3.3.0.23.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard-3.3.0.23.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard-3.3.0.23.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard-3.3.0.23.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/forking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/py3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/py3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/py3/reduction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/tests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/tests/test_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/tests/test_package.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/billiard/tests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery-3.1.26.post2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/concurrency/threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/contrib/batches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/contrib/methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/datastructures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/task/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/task/sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/task/trace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_amqp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_annotations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_beat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_builtins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_defaults.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_loaders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_schedules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/app/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_amqp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_cassandra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_couchbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_mongodb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_redis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/backends/test_rpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/proj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/proj/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_amqp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_beat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_celeryd_detach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_celeryevdump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/bin/test_worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/compat_modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/compat_modules/test_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/compat_modules/test_compat_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/compat_modules/test_decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/compat_modules/test_http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/compat_modules/test_messaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/compat_modules/test_sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/test_concurrency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/test_eventlet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/test_gevent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/test_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/test_prefork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/test_solo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/concurrency/test_threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/contrib/test_abortable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/contrib/test_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/contrib/test_migrate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/contrib/test_rdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/events/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/events/test_cursesmon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/events/test_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/events/test_snapshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/events/test_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/fixups/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/fixups/test_django.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/functional/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/functional/case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/functional/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/security/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/security/case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/security/test_certificate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/security/test_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/security/test_security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/security/test_serialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/slow/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/test_canvas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/test_chord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/test_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/test_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/test_states.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/test_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/tasks/test_trace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_datastructures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_encoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_functional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_imports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_pickle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_platforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_saferef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_serialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_sysinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_term.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_threads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_timer2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_timeutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/utils/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_autoreload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_autoscale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_bootsteps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_heartbeat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_hub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_revoke.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/tests/worker/test_worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/utils/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/utils/dispatch/saferef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/utils/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/utils/timeutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/worker/autoreload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/worker/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/celery/worker/job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/funtests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/funtests/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu-3.0.37.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu-3.0.37.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu-3.0.37.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu-3.0.37.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu-3.0.37.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu-3.0.37.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu-3.0.37.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/async/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/async/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/async/hub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/async/semaphore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/async/timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/syn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/async/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/async/test_hub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/async/test_semaphore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/mocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_clocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_compression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_entities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_messaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_pidbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_pools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_serialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/test_syn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_SQS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_amqplib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_filesystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_librabbitmq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_mongodb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_pyamqp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_qpid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_redis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_sqlalchemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/test_transport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/virtual/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/virtual/test_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/virtual/test_exchange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/transport/virtual/test_scheduling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/utils/test_amq_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/utils/test_debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/utils/test_encoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/utils/test_functional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/tests/utils/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/amqplib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/beanstalk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/couchdb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/management/commands/clean_kombu_messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/south_migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/django/south_migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/virtual/scheduling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/kombu/transport/zmq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uttu_1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +273,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ZWYb9i05WiUuMLzgpETQ5XEm6r" />
@@ -92,31 +350,39 @@
       <option name="project" value="LOCAL" />
       <updated>1600334159954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="song is added and it is playing in application but multiple songs can  play at one time">
+      <created>1600335971044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600335971044</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="html to pdf is working but images are not shown in pdf ...☹️☹️&#10;and also django tables are not showing error while creating pdf" />
     <MESSAGE value="some fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixing" />
+    <MESSAGE value="song is added and it is playing in application but multiple songs can  play at one time" />
+    <option name="LAST_COMMIT_MESSAGE" value="song is added and it is playing in application but multiple songs can  play at one time" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="336" y="52" key="CommitChangelistDialog2" timestamp="1600334159516">
+    <state x="336" y="52" key="CommitChangelistDialog2" timestamp="1600363884456">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="336" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600334159516" />
+    <state x="336" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600363884456" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600323261724">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600323261724" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600334178171">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600338191072">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600334178171" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1600333178845">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600338191072" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1600349685163">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1600333178845" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1600349685163" />
   </component>
 </project>
