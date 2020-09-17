@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django_tables2',
     # Apps
     'uttu_1',
-    'pdfMaker',
+    'pdf_maker',
 ]
 
 MIDDLEWARE = [
