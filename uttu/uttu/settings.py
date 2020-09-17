@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Third Party
     'django_tables2',
+    # Apps
     'uttu_1',
+    'pdfMaker',
 ]
 
 MIDDLEWARE = [
