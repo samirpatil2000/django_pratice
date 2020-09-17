@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pdf_maker/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/audio/Avicii_-_The_Nights.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/audio/Powfu_-_Death_Bed_ft._beabadoobee_don_t_stay_awake_for_too_long.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/song_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfMaker/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_maker/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdfMaker/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_maker/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/urls.py" afterDir="false" />
     </list>
@@ -52,11 +44,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pdf_maker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/song" />
     <property name="settings.editor.selected.configurable" value="http.certificates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/song" />
       <recent name="$PROJECT_DIR$/pdf_maker" />
       <recent name="$PROJECT_DIR$/uttu_1/templates/uttu_1" />
       <recent name="$PROJECT_DIR$/pdfMaker" />
@@ -92,27 +85,35 @@
       <option name="project" value="LOCAL" />
       <updated>1600326488304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some fixing">
+      <created>1600334159954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600334159954</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="html to pdf is working but images are not shown in pdf ...☹️☹️&#10;and also django tables are not showing error while creating pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="html to pdf is working but images are not shown in pdf ...☹️☹️&#10;and also django tables are not showing error while creating pdf" />
+    <MESSAGE value="some fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="336" y="52" key="CommitChangelistDialog2" timestamp="1600326484762">
+    <state x="336" y="52" key="CommitChangelistDialog2" timestamp="1600334159516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="336" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600326484762" />
+    <state x="336" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600334159516" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600323261724">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600323261724" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600326511451">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600334178171">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600326511451" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600334178171" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1600333178845">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

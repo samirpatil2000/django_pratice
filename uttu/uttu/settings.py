@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Apps
     'uttu_1',
     'pdf_maker',
+    'song',
 ]
 
 MIDDLEWARE = [

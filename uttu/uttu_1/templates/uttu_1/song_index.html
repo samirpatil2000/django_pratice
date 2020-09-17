@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Songs</title>
+</head>
+<body>
+<div class="container">
+    <h2>The List Of Songs</h2>
+    <hr size="5px" color="blue">
+    {% for song in songs %}
+    <h3>{{song.title}}</h3>
+   <audio controls preload="auto">
+      <source src="{{ song.audio.url }}" type="audio/mpeg">
+    </audio>
+
+    {% endfor %}
+</div>
+</body>
+</html>
