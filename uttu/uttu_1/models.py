@@ -281,6 +281,20 @@ class Followers(models.Model):
 
 
 
+## CROPING IMAGES IN DJANGO
+
+from cropperjs.models import CropperImageField
+
+class PhotoCroppingWithCropperJs(models.Model):
+    title=models.CharField(max_length=30,blank=True)
+    image_field = CropperImageField(upload_to='')
+
+    def __str__(self):
+        return self.title
+
+
+
+
 
 
 

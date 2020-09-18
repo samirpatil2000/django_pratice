@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Third Party
     'django_tables2',
+    'cropperjs',
 
     # Apps
     'uttu_1',
