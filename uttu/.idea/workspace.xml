@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/djfilter/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/static/djfilter/dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/static/djfilter/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/templates/djfilter/bootstrap_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/djfilter/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djfilter/management/commands/create_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titles.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/templates/uttu_1/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -145,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600507539127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Started with django filter app models are created">
+      <created>1600509908724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600509908724</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,21 +150,22 @@
     <MESSAGE value="trying add django audiofield but it is not working" />
     <MESSAGE value=" added cropping images using django-cropper .js" />
     <MESSAGE value="trying to add django-categories but it is not working properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to add django-categories but it is not working properly" />
+    <MESSAGE value="Started with django filter app models are created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started with django filter app models are created" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="336" y="52" key="CommitChangelistDialog2" timestamp="1600507537801">
+    <state x="336" y="52" key="CommitChangelistDialog2" timestamp="1600509908359">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="336" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600507537801" />
+    <state x="336" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600509908359" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600323261724">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600323261724" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600507644957">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600510439625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600507644957" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600510439625" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1600497110756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
