@@ -17,6 +17,9 @@ def BootstrapFilterView(request):
     between_views=''
 
     qs = Journal.objects.all()
+    categories = Category.objects.all()
+
+
     title_contains_query = request.GET.get('title_contains')
     id_exact_query = request.GET.get('id_exact')
     title_or_author_query = request.GET.get('title_or_author')
@@ -25,6 +28,10 @@ def BootstrapFilterView(request):
     view_count_max = request.GET.get('view_count_max')
     date_min = request.GET.get('date_min')
     date_max = request.GET.get('date_max')
+
+    category = request.GET.get('category')
+    reviewed = request.GET.get('reviewed')
+    not_reviewed = request.GET.get('notReviewed')
 
 
     if is_valid_params( title_contains_query):
@@ -80,11 +87,23 @@ def BootstrapFilterView(request):
          between_date+=str(date_max)
 
 
+    if is_valid_params(category) and category != 'Choose...':
+         qs = qs.filter(categories__name=category)
+
+    if reviewed == 'on':
+         qs = qs.filter(reviewed=True)
+
+    elif not_reviewed == 'on':
+         qs = qs.filter(reviewed=False)
+
+
     context = {
         'queryset': qs,
         'which_query':which_query,
         'between_dates':between_date,
         'between_views':between_views,
+        'categories': categories,
+
     }
 
     return render(request, "djfilter/bootstrap_form.html", context)

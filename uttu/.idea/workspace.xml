@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/djfilter/migrations/0002_auto_20200919_1439.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djfilter/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/djfilter/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djfilter/templates/djfilter/bootstrap_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/djfilter/templates/djfilter/bootstrap_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djfilter/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djfilter/views.py" afterDir="false" />
     </list>
@@ -142,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600523671304</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=" views_count and date is added in filter and date is not showing in html form">
+      <created>1600527992791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600527992791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,21 +160,22 @@
     <MESSAGE value="Started with django filter app models are created" />
     <MESSAGE value="data is added with argument" />
     <MESSAGE value="filter is added can it is working properly " />
-    <option name="LAST_COMMIT_MESSAGE" value="filter is added can it is working properly " />
+    <MESSAGE value=" views_count and date is added in filter and date is not showing in html form" />
+    <option name="LAST_COMMIT_MESSAGE" value=" views_count and date is added in filter and date is not showing in html form" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="637" y="59" key="CommitChangelistDialog2" timestamp="1600523670879">
+    <state x="637" y="59" key="CommitChangelistDialog2" timestamp="1600527992432">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="637" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600523670879" />
+    <state x="637" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600527992432" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600323261724">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600323261724" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600523920867">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600527998946">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600523920867" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600527998946" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1600497110756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
