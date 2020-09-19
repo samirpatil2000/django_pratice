@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'uttu_1',
     'pdf_maker',
     'song',
+    'djfilter',
 ]
 
 MIDDLEWARE = [
