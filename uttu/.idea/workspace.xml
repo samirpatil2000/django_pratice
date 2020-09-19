@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/djfilter/management/commands/create_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titles.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djfilter/static/djfilter/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/djfilter/static/djfilter/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djfilter/templates/djfilter/bootstrap_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/djfilter/templates/djfilter/bootstrap_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djfilter/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djfilter/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600509908724</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="data is added with argument">
+      <created>1600517599781</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600517599781</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,13 +159,14 @@
     <MESSAGE value=" added cropping images using django-cropper .js" />
     <MESSAGE value="trying to add django-categories but it is not working properly" />
     <MESSAGE value="Started with django filter app models are created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started with django filter app models are created" />
+    <MESSAGE value="data is added with argument" />
+    <option name="LAST_COMMIT_MESSAGE" value="data is added with argument" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="336" y="52" key="CommitChangelistDialog2" timestamp="1600509908359">
+    <state x="637" y="59" key="CommitChangelistDialog2" timestamp="1600517599462">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="336" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600509908359" />
+    <state x="637" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600517599462" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1600323261724">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
