@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     # Third Party
     'django_tables2',
     'cropperjs',
+    'categories',
+    'categories.editor',
 
     # Apps
     'uttu_1',

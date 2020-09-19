@@ -1,6 +1,6 @@
 from django.contrib import admin
 #from.models import Topping,Pizza,Person,Group,Membership,Ox,Person_1,Blog ,Type,Post#,Student,CommonInfo
-from.models import Area,Place,Follow,Song,Playlist,Publisher,Author,Book,Apk_file,MyModel,Followers,PhotoCroppingWithCropperJs
+from.models import Area,Place,Follow,Song,Playlist,Publisher,Author,Book,Apk_file,MyModel,Followers,PhotoCroppingWithCropperJs,CategoryModel,CategoryWiseBook
 # # Register your models here.
 
 
@@ -56,3 +56,9 @@ admin.site.register(Followers)
 # for image cropping
 
 admin.site.register(PhotoCroppingWithCropperJs)
+
+
+# for categories
+
+admin.site.register(CategoryModel)
+admin.site.register(CategoryWiseBook)

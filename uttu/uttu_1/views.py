@@ -3,7 +3,7 @@ from django.shortcuts import render,reverse
 from django.utils import timezone
 from django.views import View
 
-from .models import  Area, Place,Song,Playlist,Publisher,Book,Author,Apk_file,MyModel
+from .models import  Area, Place,Song,Playlist,Publisher,Book,Author,Apk_file,MyModel,CategoryModel
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import CreateView, ListView, DetailView
 
@@ -120,6 +120,12 @@ def filter_list(request):
     }
     template_name='uttu_1/tables.html'
     return render(request,template_name,filterContext)
+
+
+def categories_testing(request):
+    categories=CategoryModel.objects.all()
+    context={'category':categories}
+    return render(request,'uttu_1/categories.html',context)
 
 
 

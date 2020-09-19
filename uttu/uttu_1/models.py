@@ -296,6 +296,37 @@ class PhotoCroppingWithCropperJs(models.Model):
 
 
 
+#Categories models
+
+# class CategoryModel(models.Model):
+#     categories = models.ManyToManyField(
+#         'category.Category',
+#         help_text='Categorize this item.'
+#     )
+#     tags = models.ManyToManyField(
+#         'category.Tag',
+#         help_text='Tag this item.'
+#     )
+#
+
+class CategoryModel(models.Model):
+    name = models.CharField(max_length=100)
+    category = models.ForeignKey('categories.Category',on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
+
+
+class CategoryWiseBook(models.Model):
+    name=models.CharField(max_length=100)
+    pdf=models.FileField(upload_to='pdf')
+    category_of_book=models.ForeignKey(CategoryModel,on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
+
+
+
 
 
 

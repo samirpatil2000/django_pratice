@@ -18,6 +18,8 @@ urlpatterns = [
     path('tables/',ListView.as_view(),name='tables'),
     #path('tables/',views.filter_list,name='tables')
 
+    path('category/',views.categories_testing,name='category')
+
 
 
  ]
