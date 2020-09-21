@@ -37,17 +37,22 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #restt
+    'rest_framework',
+
     # Third Party
     'django_tables2',
     'cropperjs',
     'categories',
     'categories.editor',
 
-    # Apps
+    # Local Apps
     'uttu_1',
     'pdf_maker',
     'song',
     'djfilter',
+    'stackoverflow',
+    'rest_api_testing',
 ]
 
 MIDDLEWARE = [
@@ -132,6 +137,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
+
 
 
 

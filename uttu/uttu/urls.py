@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf import settings
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path, include
 from django import views
 from django.conf.urls.static import static
 
@@ -24,7 +24,9 @@ urlpatterns = [
     path('',include('uttu_1.urls')),
     path('pdf/',include('pdf_maker.urls')),
     path('songs/',include('song.urls')),
-    path('filterform/',include('djfilter.urls'))
+    path('filterform/',include('djfilter.urls')),
+    path('stackoverflow/',include('stackoverflow.urls')),
+    path('rest/',include('rest_api_testing.urls')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
