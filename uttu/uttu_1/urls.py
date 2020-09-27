@@ -2,7 +2,7 @@
 from django.urls import path
 from django import views
 from . import views
-from.views import PlaylistCreateView,MyView,PublisherList, PublisherBookList,AuthorDetailView,ListView
+from.views import PlaylistCreateView,MyView,PublisherList, PublisherBookList,AuthorDetailView,ListView,PostDetailView,PostListView
 #
 urlpatterns = [
     path('',views.index,name='home'),
@@ -18,8 +18,12 @@ urlpatterns = [
     path('tables/',ListView.as_view(),name='tables'),
     #path('tables/',views.filter_list,name='tables')
 
-    path('category/',views.categories_testing,name='category')
+    path('category/',views.categories_testing,name='category'),
 
 
+                 # """For Comment testing""",
 
- ]
+    path('post/',PostListView.as_view(),name='posts'),
+    path('post/<int:pk>/',PostDetailView.as_view(),name='post-details'),
+
+]

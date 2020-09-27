@@ -328,6 +328,22 @@ class CategoryWiseBook(models.Model):
 
 
 
+""" STARTED WITH COMMENT  """
+
+from django.contrib.contenttypes.fields import GenericRelation
+
+from comment.models import Comment
+
+class Post(models.Model):
+    author = models.ForeignKey(User,on_delete=models.CASCADE)
+    title = models.CharField(max_length=200)
+    body = models.TextField()
+    # the field name should be comments
+    comments = GenericRelation(Comment)
+
+    def __str__(self):
+        return self.title
+
 
 
 

@@ -3,7 +3,7 @@ from django.shortcuts import render,reverse
 from django.utils import timezone
 from django.views import View
 
-from .models import  Area, Place,Song,Playlist,Publisher,Book,Author,Apk_file,MyModel,CategoryModel
+from .models import  Area, Place,Song,Playlist,Publisher,Book,Author,Apk_file,MyModel,CategoryModel,Post
 from django.shortcuts import render, get_object_or_404
 from django.views.generic import CreateView, ListView, DetailView
 
@@ -128,6 +128,19 @@ def categories_testing(request):
     return render(request,'uttu_1/categories.html',context)
 
 
+
+
+
+"""FOR COMMENT """
+
+class PostListView(ListView):
+    model = Post
+    template_name = 'uttu_1/index.html'
+    context_object_name = 'posts'
+
+class PostDetailView(DetailView):
+    model = Post
+    context_object_name = 'post'
 
 
 

@@ -26,7 +26,13 @@ urlpatterns = [
     path('songs/',include('song.urls')),
     path('filterform/',include('djfilter.urls')),
     path('stackoverflow/',include('stackoverflow.urls')),
+
     path('rest/',include('rest_api_testing.urls')),
+    path('comment/', include('comment.urls')),
+
+    # path('like/', include('like_dislike.urls')),   # like dislike on post
+
+    # path('muf/',include('multiple_fields.urls')),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

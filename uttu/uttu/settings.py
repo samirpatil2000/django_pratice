@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'cropperjs',
     'categories',
     'categories.editor',
+    'embed_video',
+    'comment',
 
     # Local Apps
     'uttu_1',
@@ -53,6 +55,8 @@ INSTALLED_APPS = [
     'djfilter',
     'stackoverflow',
     'rest_api_testing',
+    # 'multiple_fields',
+    # 'like_dislike',
 ]
 
 MIDDLEWARE = [

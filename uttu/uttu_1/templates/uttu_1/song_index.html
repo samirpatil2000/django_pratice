@@ -5,6 +5,7 @@
     <title>Songs</title>
 </head>
 <body>
+{% load embed_video_tags %}
 <div class="container">
     <h2>The List Of Songs</h2>
     <hr size="5px" color="blue">
@@ -13,8 +14,27 @@
    <audio controls preload="auto">
       <source src="{{ song.audio.url }}" type="audio/mpeg">
     </audio>
+    <video id="video" controls autoplay width='50%' height='40%'>
+            <source src="{{ song.video.url }}" type="video/mp4">
+    </video>
+    {# still app_name/model_name_detail.html #}
+    {# the string at the end is the size of the video #}
+    {# options: tiny, small, medium, large, huge #}
+    {% video embed_video.video 'medium' %}
+      <video id="video_4" controls autoplay width='50%' height='40%'>
+            <source src="{{ song.embed_video.url }}" type="video/mp4">
+    </video>
+
+
+
 
     {% endfor %}
+
+</div>
+<div class="container">
+<!--          <video id="video_1" controls autoplay width='50%' height='40%'>-->
+<!--            <source src="https://dl3.drbox.xyz/Series/The%20Boys%202019/S02/The.Boys.S02E05.480p.WEB.x264.TagName.mkv" type="video/mp4">-->
+<!--         </video>-->
 </div>
 </body>
 </html>

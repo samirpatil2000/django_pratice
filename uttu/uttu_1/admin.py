@@ -2,7 +2,7 @@ from django.contrib import admin
 #from.models import Topping,Pizza,Person,Group,Membership,Ox,Person_1,Blog ,Type,Post#,Student,CommonInfo
 from.models import Area,Place,Follow,Song,Playlist,Publisher,Author,Book,Apk_file,MyModel,Followers,PhotoCroppingWithCropperJs,CategoryModel,CategoryWiseBook
 # # Register your models here.
-
+from .models import Post
 
 # admin.site.register(Topping)
 # admin.site.register(Pizza)
@@ -53,8 +53,10 @@ admin.site.register(MyModel)
 
 admin.site.register(Followers)
 
-# for image cropping
 
+
+
+# for image cropping
 admin.site.register(PhotoCroppingWithCropperJs)
 
 
@@ -62,3 +64,8 @@ admin.site.register(PhotoCroppingWithCropperJs)
 
 admin.site.register(CategoryModel)
 admin.site.register(CategoryWiseBook)
+
+
+""" for comment """
+
+admin.site.register(Post)
