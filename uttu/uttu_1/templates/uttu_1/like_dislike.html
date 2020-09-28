@@ -25,7 +25,7 @@
             {% if request.user in page_obj.likes.users.all%}
             <!-- already liked-->
 
-            <a href="{% url 'requirement_comment_vote' comment_id=page_obj.pk option='like' %}">
+            <a href="{% url 'requirement_comment_vote' pk=page_obj.pk option='like' %}">
 
                 <i data-toggle="tooltip" data-placement="bottom" title="Unlike" class="like fas fa-thumbs-up pr-2">
                          <span>{{page_obj.get_total_likes}}</span>
@@ -35,17 +35,7 @@
             {% else %}
             <!--not liked-->
 
-            <a href="{% url 'requirement_comment_vote' comment_id=page_obj.pk option='like' %}">
-                <i data-toggle="tooltip" data-placement="bottom" title="Like" class="default-icon fas fa-thumbs-up pr-2">
-                <span>
-                      {% if page_obj.get_total_likes  %}
-                            {{page_obj.get_total_likes}}
-                      {% else %}
-                            0
-                      {% endif %}
-                </span>
-                </i>
-            </a>
+<!---->
             {% endif %}
          </span>
          <span class="ml-3 pointer">
@@ -58,17 +48,7 @@
          </a>
          {% else %}
 
-         <a href="{% url 'requirement_comment_vote' comment_id=page_obj.pk option='dis_like' %}">
-             <i data-toggle="tooltip" data-placement="bottom" title="i dislike this " class="default-icon fas fa-thumbs-down pr-2">
-             <span>
-                 {% if  page_obj.get_total_dis_likes %}
-                    {{page_obj.get_total_dis_likes}}
-                 {% else %}
-                      0
-                 {% endif %}
-             </span>
-             </i>
-         </a>
+
          {% endif %}
          </span>
       </div>

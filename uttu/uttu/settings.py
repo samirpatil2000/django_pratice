@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     'stackoverflow',
     'rest_api_testing',
     # 'multiple_fields',
-    # 'like_dislike',
+    'like_dislike',
 ]
 
 MIDDLEWARE = [

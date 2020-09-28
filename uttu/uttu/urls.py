@@ -30,7 +30,7 @@ urlpatterns = [
     path('rest/',include('rest_api_testing.urls')),
     path('comment/', include('comment.urls')),
 
-    # path('like/', include('like_dislike.urls')),   # like dislike on post
+    path('like/', include('like_dislike.urls')),   # like dislike on post
 
     # path('muf/',include('multiple_fields.urls')),
 ]

@@ -2,151 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/videos/production_ID_3873465.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/videos/video_copy_3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/migrations/0004_song_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/song/migrations/0005_song_embed_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/api/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/api/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/conf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/conf/defaults.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/managers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/managers/comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/managers/flags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/managers/reactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0002_comment_edit_date.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0003_auto_20200419_1423.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0004_reaction_reactioninstance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0005_auto_20200521_1301.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0006_flag_flaginstance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0007_auto_20200620_1259.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0008_comment_urlhash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/0009_auto_20200811_1945.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/models/comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/models/flags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/models/reactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/signals/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/signals/post_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/signals/post_migrate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/signals/post_save.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/static/css/bootstrap-4.1.1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/static/css/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/static/img/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/static/js/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/anonymous/confirmation_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/anonymous/confirmation_request.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/anonymous/discarded.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/apply_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/cancel_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/child_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/comment_body.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/comment_content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/comment_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/comment_modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/content.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/create_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/delete_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/edit_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/messages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/parent_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/reject_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/resolve_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/update_comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/comments/urlhash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/flags/flag_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/flags/flag_modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/flags/flags.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/reactions/dislike_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/reactions/like_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/reactions/reactions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templates/comment/static.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/templatetags/comment_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_migrations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_template_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/tests/test_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/views/comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/views/flags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/comment/views/reactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_comments_dab-2.0.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_comments_dab-2.0.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_comments_dab-2.0.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_comments_dab-2.0.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_comments_dab-2.0.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_comments_dab-2.0.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_embed_video-1.3.3.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_embed_video-1.3.3.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_embed_video-1.3.3.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_embed_video-1.3.3.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_embed_video-1.3.3.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_embed_video-1.3.3.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/django_embed_video-1.3.3.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/backends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/templates/embed_video/embed_code.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/templatetags/embed_video_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/backends/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/backends/tests_custom_backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/backends/tests_soundcloud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/backends/tests_videobackend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/backends/tests_vimeo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/backends/tests_youtube.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/django_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/templatetags/tests_embed_video_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/tests_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/tests_fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/tests/tests_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_uttu/lib/python3.8/site-packages/embed_video/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uttu_1/migrations/0029_post.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/like_dislike.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/muf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_dislike/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stackoverflow/migrations/0003_comment_dislike_like.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/song/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stackoverflow/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/stackoverflow/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/templates/uttu_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/templates/uttu_1/song_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/song_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uttu_1/templates/uttu_1/like_dislike.html" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/like_dislike.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +39,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="8b669d3b-09fe-4d6a-8ed5-bb019241092d" />
+  </component>
   <component name="ProjectId" id="1ZWYb9i05WiUuMLzgpETQ5XEm6r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -188,6 +61,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stackoverflow" />
+      <recent name="$PROJECT_DIR$/like_dislike" />
       <recent name="$PROJECT_DIR$/djfilter/static" />
       <recent name="$PROJECT_DIR$/djfilter" />
       <recent name="$PROJECT_DIR$/djfilter/templates" />
@@ -307,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600685984694</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="comment testing">
+      <created>1601232221636</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601232221636</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -324,13 +206,14 @@
     <MESSAGE value=" views_count and date is added in filter and date is not showing in html form" />
     <MESSAGE value="category filer is added" />
     <MESSAGE value="testing rest api" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing rest api" />
+    <MESSAGE value="comment testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment testing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="59" key="CommitChangelistDialog2" timestamp="1601232083492">
+    <state x="583" y="59" key="CommitChangelistDialog2" timestamp="1601232220897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="583" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601232083492" />
+    <state x="583" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601232220897" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1600628369105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -343,10 +226,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600323261724" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601232166691">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601321009362">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601232166691" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601321009362" />
     <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1601045990460">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -359,9 +242,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1600628414623" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601227513958">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601233478810">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601227513958" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601233478810" />
   </component>
 </project>
