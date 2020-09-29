@@ -32,7 +32,9 @@ urlpatterns = [
 
     path('like/', include('like_dislike.urls')),   # like dislike on post
 
-    # path('muf/',include('multiple_fields.urls')),
+
+    path('accounts/', include('allauth.urls')),  # <--
+
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -57,6 +57,15 @@ INSTALLED_APPS = [
     'rest_api_testing',
     # 'multiple_fields',
     'like_dislike',
+
+    # oauth
+    'django.contrib.sites',
+    # Alluth
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+
 ]
 
 MIDDLEWARE = [
