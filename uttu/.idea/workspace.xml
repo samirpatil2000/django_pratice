@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/post_images/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/post_images/1_NcWxkwX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_maker/migrations/0002_images_postwithmultipleimages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/samir.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/form_testing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_maker/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_maker/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_maker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_maker/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_maker/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_maker/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_maker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_maker/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uttu_1/templates/uttu_1/muf.html" beforeDir="false" afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/muf.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,23 +57,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pdf_maker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/form_testing" />
     <property name="settings.editor.selected.configurable" value="http.certificates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pdf_maker" />
-      <recent name="$PROJECT_DIR$/like_dislike" />
-      <recent name="$PROJECT_DIR$/multiple_fields" />
-      <recent name="$PROJECT_DIR$/rest_api_testing" />
-      <recent name="$PROJECT_DIR$/stackoverflow" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/stackoverflow" />
       <recent name="$PROJECT_DIR$/like_dislike" />
       <recent name="$PROJECT_DIR$/djfilter/static" />
       <recent name="$PROJECT_DIR$/djfilter" />
       <recent name="$PROJECT_DIR$/djfilter/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/form_testing" />
+      <recent name="$PROJECT_DIR$/pdf_maker" />
+      <recent name="$PROJECT_DIR$/like_dislike" />
+      <recent name="$PROJECT_DIR$/multiple_fields" />
+      <recent name="$PROJECT_DIR$/rest_api_testing" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -194,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601321029862</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="testing multiple image to one post">
+      <created>1601407734343</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601407734343</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -213,13 +223,14 @@
     <MESSAGE value="testing rest api" />
     <MESSAGE value="comment testing" />
     <MESSAGE value="comment testing but is now working" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment testing but is now working" />
+    <MESSAGE value="testing multiple image to one post" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing multiple image to one post" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="59" key="CommitChangelistDialog2" timestamp="1601321029398">
+    <state x="583" y="59" key="CommitChangelistDialog2" timestamp="1601407733711">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="583" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601321029398" />
+    <state x="583" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601407733711" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1600628369105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -248,9 +259,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1600628414623" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601233478810">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601410302874">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601233478810" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601410302874" />
   </component>
 </project>

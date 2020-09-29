@@ -32,6 +32,8 @@ urlpatterns = [
 
     path('like/', include('like_dislike.urls')),   # like dislike on post
 
+    path('forms/', include('form_testing.urls')),
+
 
     path('accounts/', include('allauth.urls')),  # <--
 

@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'django.contrib.sites',
     #restt
     'rest_framework',
 
@@ -57,9 +59,9 @@ INSTALLED_APPS = [
     'rest_api_testing',
     # 'multiple_fields',
     'like_dislike',
+    'form_testing',
 
     # oauth
-    'django.contrib.sites',
     # Alluth
     'allauth',
     'allauth.account',
@@ -153,4 +155,4 @@ MEDIA_URL='/media/'
 
 
 
-
+SITE_ID = 1
