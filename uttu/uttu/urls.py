@@ -36,6 +36,7 @@ urlpatterns = [
 
 
     path('accounts/', include('allauth.urls')),  # <--
+    path('dynamic_attri/', include('dynamic_attri.urls')),  # <--
 
 ]
 if settings.DEBUG:

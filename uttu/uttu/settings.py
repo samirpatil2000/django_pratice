@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'embed_video',
     'comment',
 
+
     # Local Apps
     'uttu_1',
     'pdf_maker',
@@ -60,6 +61,7 @@ INSTALLED_APPS = [
     # 'multiple_fields',
     'like_dislike',
     'form_testing',
+    'dynamic_attri',
 
     # oauth
     # Alluth

@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e57df16-79ba-49f9-aadf-4776a1473deb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/samir.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form_testing/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uttu_1/templates/uttu_1/form_testing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/templates/dynamic_attri/dy-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/templates/dynamic_attri/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/templates/dynamic_attri/load_sub_cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/templates/dynamic_attri/person_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_attri/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0002_auto_20201016_0615.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0003_auto_20201016_0622.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0004_auto_20201016_0653.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0005_auto_20201016_0657.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0006_auto_20201016_0700.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0007_auto_20201017_1324.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0008_auto_20201017_1402.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0009_auto_20201017_1434.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0010_auto_20201017_1434.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0011_auto_20201017_1749.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0012_auto_20201017_1751.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form_testing/migrations/0013_auto_20201017_1752.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uttu/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/uttu/settings.py" afterDir="false" />
@@ -57,23 +70,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/form_testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic_attri" />
     <property name="settings.editor.selected.configurable" value="http.certificates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dynamic_attri" />
+      <recent name="$PROJECT_DIR$/form_testing" />
+      <recent name="$PROJECT_DIR$/pdf_maker" />
+      <recent name="$PROJECT_DIR$/like_dislike" />
+      <recent name="$PROJECT_DIR$/multiple_fields" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/stackoverflow" />
       <recent name="$PROJECT_DIR$/like_dislike" />
       <recent name="$PROJECT_DIR$/djfilter/static" />
       <recent name="$PROJECT_DIR$/djfilter" />
       <recent name="$PROJECT_DIR$/djfilter/templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/form_testing" />
-      <recent name="$PROJECT_DIR$/pdf_maker" />
-      <recent name="$PROJECT_DIR$/like_dislike" />
-      <recent name="$PROJECT_DIR$/multiple_fields" />
-      <recent name="$PROJECT_DIR$/rest_api_testing" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -204,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601407734343</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding bootstrap to django forms because crispy is not working in internship project">
+      <created>1601413100293</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601413100293</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,13 +244,14 @@
     <MESSAGE value="comment testing" />
     <MESSAGE value="comment testing but is now working" />
     <MESSAGE value="testing multiple image to one post" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing multiple image to one post" />
+    <MESSAGE value="adding bootstrap to django forms because crispy is not working in internship project" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding bootstrap to django forms because crispy is not working in internship project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="59" key="CommitChangelistDialog2" timestamp="1601407733711">
+    <state x="583" y="59" key="CommitChangelistDialog2" timestamp="1601413099875">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="583" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601407733711" />
+    <state x="583" y="59" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601413099875" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1600628369105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -243,14 +264,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600323261724" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601321009362">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1601413119407">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601321009362" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1601045990460">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601413119407" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1601586326284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1601045990460" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1601586326284" />
     <state x="378" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601156701322">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

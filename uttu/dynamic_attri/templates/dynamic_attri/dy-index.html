@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Products</h2>
+{% for i in obj %}
+<h4> {{i.title}} </h4>
+<h4> {{i.price}} </h4>
+<h4> {{i.category}} </h4>
+<h4> {{i.desc}} </h4>
+        <hr>
+        <br>
+{% endfor %}
+</body>
+</html>
